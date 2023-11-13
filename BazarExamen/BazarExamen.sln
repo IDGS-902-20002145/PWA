@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BazarExamen", "BazarExamen.csproj", "{CC7BC4BC-BFD1-427C-9E85-4048059F32ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC7BC4BC-BFD1-427C-9E85-4048059F32ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7BC4BC-BFD1-427C-9E85-4048059F32ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7BC4BC-BFD1-427C-9E85-4048059F32ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7BC4BC-BFD1-427C-9E85-4048059F32ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66CCDB04-4901-443A-9376-AFD803AA52D3}
+	EndGlobalSection
+EndGlobal

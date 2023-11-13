@@ -1,0 +1,31 @@
+/* StarRating.css */
+.star-rating {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo para estrella activada */
+.star-rating .fa-star.checked,
+.star-rating .fa-star-half-alt.checked {
+  color: gold;
+}
+
+/* Estilo para estrella desactivada */
+.star-rating .fa-star,
+.star-rating .fa-star-half-alt {
+  color: #ccc;
+}
+
+/* Hover effect para estrellas */
+.star-rating .fa-star:hover,
+.star-rating .fa-star-half-alt:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Estilo para el texto de calificación */
+.star-rating .rating-text {
+  margin-left: 0.5em;
+  font-size: 0.8em; /* Tamaño ajustado del texto de calificación */
+}

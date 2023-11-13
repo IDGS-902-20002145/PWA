@@ -1,0 +1,9 @@
+/* ProductDetail.css */
+.carousel {
+  max-width: 100%;
+}
+
+.discount-text {
+  font-size: 1.2em;
+  font-weight: bold;
+}
