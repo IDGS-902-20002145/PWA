@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BazarExamen.Models
 {
-    [Table("IMAGEN_PRODUCTO", Schema = "BAZAR")]
+    [Table("Imagen_Producto")]
     public class ImagenProducto
     {
 

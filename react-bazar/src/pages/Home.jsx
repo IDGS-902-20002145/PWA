@@ -1,24 +1,22 @@
 // Home.js
-// eslint-disable-next-line no-unused-vars
-import React, { useState } from "react";
-// @ts-ignore
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./H.css"; // Vincula el archivo de estilo
+// eslint-disable-next-line no-unused-vars
+import React from "react";
 
 const Home = () => {
   const [productName, setProductName] = useState("");
-  // Cambia useHistory por useNavigate
   const navigate = useNavigate();
 
   const handleSearch = () => {
-    // Realizar la petición al API
-    fetch(`https://localhost:7226/api/Producto/items?name=${productName}`)
+    fetch(
+      `https://www.bazarutl.somee.com/api/Producto/items?name=${productName}`
+    )
       .then((response) => response.json())
       .then((data) => {
-        // Mostrar los resultados en la consola
         console.log(data);
-
-        // Navegar a la página de resultados
         navigate("/items", {
           state: { searchResults: data, searchTerm: productName },
         });
@@ -29,29 +27,41 @@ const Home = () => {
   };
 
   return (
-    <div className="container mt-5">
-      <h2 className="text-center">Bazar UTL</h2>
-      <div className="row justify-content-center mt-4">
-        <div className="col-md-6">
-          <div className="input-group mb-3">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Nombre del producto"
-              value={productName}
-              onChange={(e) => setProductName(e.target.value)}
-            />
-            <button
-              className="btn btn-primary"
-              type="button"
-              onClick={handleSearch}
-            >
-              Buscar
-            </button>
+    <>
+      <div className="container mt-5">
+        <div className="header">
+          <h2>Bazar UTL</h2>
+        </div>
+        <br></br>
+        <div className="image-container">
+          <img
+            src="https://i.pinimg.com/564x/ef/26/a5/ef26a537b4d4dbe811306ae225989999.jpg"
+            alt="Imagen de ejemplo"
+            className="center-image"
+          />
+        </div>
+        <div className="row justify-content-center mt-4 input-container">
+          <div className="col-md-6">
+            <div className="input-group mb-3">
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Empieza a buscar..."
+                value={productName}
+                onChange={(e) => setProductName(e.target.value)}
+              />
+              <button
+                className="btn btn-primary"
+                type="button"
+                onClick={handleSearch}
+              >
+                Buscar
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

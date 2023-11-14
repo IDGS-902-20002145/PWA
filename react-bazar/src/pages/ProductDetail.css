@@ -7,3 +7,27 @@
   font-size: 1.2em;
   font-weight: bold;
 }
+
+/* ProductDetail.css */
+
+/* ProductDetail.css */
+
+.btn-coffee {
+  background-color: #ba7e25;/* Color café */
+  color: #fff; /* Texto blanco */
+  border: none;
+  padding: 10px 20px; /* Ajusta el relleno según tus preferencias */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+}
+
+.btn-coffee:hover {
+  background-color: #654321; /* Cambia el color al pasar el ratón sobre el botón */
+  color: #fff; /* Texto blanco */
+}
+
+/* ProductDetail.css */
+
+.product-image {
+  max-height: 300px; /* Ajusta la altura máxima según tus necesidades */
+  margin: 0 auto; /* Centra la imagen dentro del contenedor del carrusel */
+}

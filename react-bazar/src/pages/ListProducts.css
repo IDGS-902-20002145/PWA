@@ -1,4 +1,42 @@
+/* ListProducts.css */
+
+body {
+  background-color: #fff8e7; /* Color beige para el fondo de la página */
+  
+}
+
+.product-card {
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-container {
+  text-align: center;
+  padding: 10px;
+  background: url('https://i.pinimg.com/564x/74/d5/61/74d56175a1c14893b9ef775df2c7f8e0.jpg') repeat; /* Reemplaza con la URL de tu imagen de fondo */
+}
+
+.card-img-top {
+  width: 200px; /* Tamaño deseado para la imagen */
+  height: 200px; /* Tamaño deseado para la imagen */
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff; /* Añade un borde blanco a la imagen */
+}
+
 .card:hover {
   transform: translateY(-5px);
   transition: transform 0.3s ease-in-out;
+}
+
+.card-body h5 {
+  font-size: 1.5rem; /* Tamaño de fuente para el título */
+  font-weight: bold;
+}
+
+.card-body p {
+  font-weight: bold;
 }

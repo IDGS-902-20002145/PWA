@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BazarExamen.Models
 {
-    [Table("Producto", Schema = "BAZAR")]
+ 
     public class Producto
     {
         [Key]

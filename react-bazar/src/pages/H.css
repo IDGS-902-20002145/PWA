@@ -1,0 +1,70 @@
+/* H.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Color de fondo sutil */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .header {
+    padding: 20px;
+    background-color: #ba7e25; /* Color de fondo para el encabezado */
+    color: #ffffff; /* Color del texto en el encabezado */
+  }
+  
+  .input-container {
+    margin-top: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-control {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #ba7e25; /* Color de fondo para el encabezado */
+    color: #ffffff; /* Color del texto en el encabezado */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ba7e25; /* Color de fondo para el encabezado */
+    color: #ffffff; /* Color del texto en el encabezado */
+  }
+  
+  /* H.css */
+
+/* ... (otros estilos) */
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .center-image {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Puedes ajustar estos estilos según tus preferencias */
+  }
+  
